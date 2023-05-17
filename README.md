@@ -10,9 +10,11 @@ It should work on any modern browser.
 
 ## usage
 
-Non-empty nodes are positive integers, and empty leaves are denoted by '#'.
+The program needs two things to draw the tree.
+First, you enter the maximum number of nodes that each row can contain (so the program can adjust the node size).
+Second, you enter the pre-order traversal sequence, where non-empty nodes are positive integers and empty leaves are denoted by '#'.
 
-For example, if you enter the following input (the first number represents the size of every non-empty node, and the second line is the traversal sequence),
+For example, if you give the following input,
 
 > 32
 
