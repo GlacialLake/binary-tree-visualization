@@ -10,6 +10,7 @@ It should work on any modern browser.
 
 ## usage
 
+You open `index.html` in any modern browser.
 The program needs two things to draw the tree.
 First, you enter the maximum number of nodes that each row can contain (so the program can adjust the node size).
 Second, you enter the pre-order traversal sequence, where non-empty nodes are positive integers and empty leaves are denoted by '#'.
