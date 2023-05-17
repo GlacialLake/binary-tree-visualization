@@ -89,13 +89,13 @@ function build(tree, cxt, rpx, tpx, wpx) {
 }
 
 function main() {
-	maxRowNode = parseInt(prompt("Please enter the maximum number of nodes one row can contain, so the program can adjust the size of nodes.", "64"));
+	maxRowNode = parseInt(prompt("Please enter the maximum number of nodes each row can contain, so the program can adjust the size of each node.", "64"));
 	var wpx = getWidth() - 100;
 	var hpx = getHeight() - 100;
 	document.getElementById("Cvs").setAttribute("width", String(wpx));
 	document.getElementById("Cvs").setAttribute("height", String(hpx));
 	var cxt = document.getElementById("Cvs").getContext("2d");
-	var tree = prompt("Please enter the pre-order traversal series (including the empty node) of the binary tree, sepreted by spaces.", "1 2 4 # # 5 12 # 13 # 14 15 # # # # 3 6 8 10 # # 11 # # 9 # # 7 # #");
+	var tree = prompt("Please enter the pre-order traversal sequence (including the empty leaves) of the binary tree, separated by spaces.", "1 2 4 # # 5 12 # 13 # 14 15 # # # # 3 6 8 10 # # 11 # # 9 # # 7 # #");
 	var r = wpx / (maxRowNode * 2);
 	build(tree, cxt, r, r / 3 * 4, wpx);
 }
