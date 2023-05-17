@@ -1,13 +1,23 @@
 # binary-tree-visualization
 
-Given the pre-order traversal sequence (including all empty encounters), this JavaScript program can paint the binary tree in the browser. Each non-empty node is denoted by an positive integer, and each empty node is denoted by the character '#'.
+## summary
 
-For example, if you give the following input (the first number is used to determine the size of the nodes),
+Draw a binary tree in the browser based on the pre-order traversal sequence (including empty leaves).
+
+## dependencies
+
+It should work on any modern browser.
+
+## usage
+
+Non-empty nodes are positive integers, and empty leaves are denoted by '#'.
+
+For example, if you enter the following input (the first number represents the size of every non-empty node, and the second line is the traversal sequence),
 
 > 32
 
 > 1 2 3 # # 4 # # 5 6 7 # # 8 # # #
 
-you will get this result:
+you will get the following result.
 
 ![](example.png)
