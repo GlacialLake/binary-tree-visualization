@@ -4,7 +4,7 @@
 
 Draw a binary tree in the browser based on the pre-order traversal sequence (including empty leaves).
 
-## dependencies
+## platforms and dependencies
 
 It should work on any modern browser.
 
